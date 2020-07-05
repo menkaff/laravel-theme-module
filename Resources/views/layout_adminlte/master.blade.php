@@ -1,12 +1,12 @@
 <html dir="rtl" lang="fal-IR">
 
-@include('user::layouts.head')
+@include('theme::layout_adminlte.sections.head')
 
 <body class="hold-transition skin-blue sidebar-mini">
 
 
-    @include('user::layouts.header')
-    @include('user::layouts.aside')
+    @include('theme::layout_adminlte.sections.header')
+    @include('theme::layout_adminlte.sections.aside')
     <div class="wrapper">
         <div class="content-wrapper" style="padding:10px;">
 
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    @include('user::layouts.footer')
+    @include('theme::layout_adminlte.sections.footer')
 
 </body>
 
