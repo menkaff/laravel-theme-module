@@ -81,7 +81,7 @@
 
 
             </section>
-
+            @include('theme::layout_adminlte.components.errorbox')
             @yield('content')
         </div>
     </div>
