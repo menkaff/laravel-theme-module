@@ -13,7 +13,7 @@
     <link href="/adminlte/css/custom.css" rel="stylesheet" />
     <link href="/fontawesome/f5/css/all.min.css" rel="stylesheet" />
     <link href="/fontawesome/css/font-awesome-animation.min.css" rel="stylesheet" />
-    <script src="/js/jquery-3.5.1.slim.min.js"></script> @yield("head")
+    <script src="/js/jquery-3.5.1.min.js"></script> @yield("head")
     <script type="text/javascript">
         @if(Auth::check())
          window.Laravel = <?php echo json_encode([
