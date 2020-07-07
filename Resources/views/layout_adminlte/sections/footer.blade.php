@@ -5,4 +5,9 @@
 <script src="/bootstrap/js/bootstrap.min.js"></script>
 <script src="/adminlte/js/app.js"></script>
 <script src="/js/bootstrap-confirmation.min.js"></script>
+<script>
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
 @yield('scripts')
