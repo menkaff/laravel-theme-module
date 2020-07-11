@@ -1,4 +1,5 @@
 <?php return array(
+    "activity" => "سابقه فعالیت ها",
     "admins" => "مدیران",
     "gift_credit"=>"اعتبار هدیه",
     "detail" => "جزییات",
