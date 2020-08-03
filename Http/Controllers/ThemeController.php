@@ -28,7 +28,6 @@ class ThemeController extends Controller
             } else {
                 $template_parts[$i] = '';
             }
-            
 
         }
 
@@ -39,7 +38,7 @@ class ThemeController extends Controller
     {
 
         $notifications = DB::table('logs')->orderBy('created_at', 'DESC')->get();
-        DB::table('logs')->where('is_seen', 0)->update(['is_seen' => 1]);
+        // DB::table('logs')->where('is_seen', 0)->update(['is_seen' => 1]);
 
         return view('theme::notifications_index', compact(['notifications']));
     }

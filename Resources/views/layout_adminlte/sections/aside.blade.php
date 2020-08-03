@@ -1,3 +1,4 @@
+@if(Auth::check())
 <aside class=" main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
@@ -8,10 +9,7 @@
                 <p>
                     {{Auth::user()->name.' '.Auth::user()->family}}
                 </p>
-                <span>
 
-                    {{Auth::user()->get_top_role(true)}}
-                </span>
             </div>
             <div class="pull-left image">
                 <img alt="User Image" src="{{Auth::user()->image}}" onerror="this.src='/images/logo_xs.png'">
@@ -30,3 +28,4 @@
     </section>
     <!-- /.sidebar -->
 </aside>
+@endif

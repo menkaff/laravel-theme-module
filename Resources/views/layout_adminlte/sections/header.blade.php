@@ -1,6 +1,7 @@
+@if(Auth::check())
 <header class=" main-header">
     <!-- Logo -->
-    <a class="logo" href="/{{Auth::user()->get_top_role()}}">
+    <a class="logo" href="/admin">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
             <b>
@@ -46,10 +47,7 @@
                             <p>
                                 {{Auth::user()->name.' '.Auth::user()->family}}
                                 <br>
-                                <span>
 
-                                    دسترسی : {{Auth::user()->get_top_role(true)}}
-                                </span>
                             </p>
                             </img>
                         </li>
@@ -77,3 +75,4 @@
         </div>
     </nav>
 </header>
+@endif
