@@ -1,4 +1,5 @@
 <?php return array(
+    "street" => "خیابان",
     "proposed_product" => "کالای پیشنهادی",
     "proposed_products" => "کالاهای پیشنهادی",
     "belongs_to" => "کالاهای پیشنهادی",
