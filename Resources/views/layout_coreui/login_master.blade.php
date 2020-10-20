@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Mehran NikNafs" />
-    <meta name="keyword" content="موقوفات گنجعلی خان">
+    <meta name="keyword" content="">
     <title>
-        موقوفات گنجعلی خان | @yield('title')
+         | @yield('title')
     </title>
     <!-- Icons-->
     <link href="/coreui/vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">

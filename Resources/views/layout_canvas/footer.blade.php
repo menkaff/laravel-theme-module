@@ -15,7 +15,7 @@
 					<div class="widget clearfix">
 
 						<img src="/canvas/images/footer-widget-logo.png" alt="" class="footer-logo">
-						<p><strong>موقوفات گنجعلی خان</strong></p>
+						<p><strong></strong></p>
 						<p>وقف سکوی عروجیست که ویژگی ماندگاریش توانی به انسان می بخشد که تا ملکوت پیش رود </p>
 
 						<div
@@ -143,7 +143,7 @@
 		<div class="container clearfix">
 
 			<div class="col_half">
-				&copy; تمامی حقوق برای موقوفات گنجعلی خان محفوظ میباشد.<br>
+				&copy; تمامی حقوق برای  محفوظ میباشد.<br>
 			</div>
 
 

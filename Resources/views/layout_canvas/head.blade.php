@@ -2,7 +2,7 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Mehran NikNafs" />
-	<meta name="keyword" content="موقوفات گنجعلی خان">
+	<meta name="keyword" content="">
 
 	<link rel="icon" type="image/png" href="/images/logo.png" sizes="any" />
 
@@ -40,7 +40,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title> موقوفات گنجعلی خان | @yield('title')</title>
+	<title>  | @yield('title')</title>
 
 	<style>
 		.revo-slider-emphasis-text {
