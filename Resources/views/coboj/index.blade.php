@@ -17,12 +17,12 @@
     <table class="table">
         <thead>
             <tr>
-                <th>
+                <th data-sortable="true">
                     نوع تسهیلات
                 </th>
-                <th>تاریخ درخواست</th>
-                <th>وضعیت</th>
-                <th>دانلود</th>
+                <th data-sortable="true">تاریخ درخواست</th>
+                <th data-sortable="true">وضعیت</th>
+                <th data-sortable="true">دانلود</th>
             </tr>
         </thead>
         <tbody>

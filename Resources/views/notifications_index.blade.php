@@ -2,8 +2,8 @@
 @section('content')
 <table class="table">
     <tr>
-        <th> نوتیفیکیشن </th>
-        <th> تاریخ </th>
+        <th data-sortable="true"> نوتیفیکیشن </th>
+        <th data-sortable="true"> تاریخ </th>
     </tr>
     @foreach ($notifications as $notification)
     <tr>

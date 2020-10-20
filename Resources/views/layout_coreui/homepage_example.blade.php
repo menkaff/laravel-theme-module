@@ -481,11 +481,11 @@
                           <th class="text-center">
                             <i class="icon-people"></i>
                           </th>
-                          <th>User</th>
+                          <th data-sortable="true">User</th>
                           <th class="text-center">Country</th>
-                          <th>Usage</th>
+                          <th data-sortable="true">Usage</th>
                           <th class="text-center">Payment Method</th>
-                          <th>Activity</th>
+                          <th data-sortable="true">Activity</th>
                         </tr>
                       </thead>
                       <tbody>
