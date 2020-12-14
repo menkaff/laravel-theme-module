@@ -1,7 +1,7 @@
 <footer class="app-footer">
   <div>
 
-    <span> &copy; تمامی حقوق برای موقوفات گنجعلی خان محفوظ میباشد.<br>
+    <span> &copy; تمامی حقوق برای  محفوظ میباشد.<br>
     </span>
   </div>
 </footer>
