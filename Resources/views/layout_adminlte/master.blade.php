@@ -32,36 +32,36 @@
 
 
                         @foreach($segments as $segment)
-                        <?php 
+                        <?php
                     $sth_url='';
-                    $segment_url .= '/'.$segment; 
-                        if($segment=='details'){
+                    $segment_url .= '/'.$segment;
+                        if ($segment=='details') {
+                            if (app('request')->has('type_id')) {
+                                $sth_url='?id='.app('request')->input('type_id');
+                            }
                         
-                            if(app('request')->has('type_id'))
-                            $sth_url='?id='.app('request')->input('type_id');
-                        
-                            if(app('request')->has('id')&&$last==$segment)
-                            $sth_url='?id='.app('request')->input('id');
+                            if (app('request')->has('id')&&$last==$segment) {
+                                $sth_url='?id='.app('request')->input('id');
+                            }
 
-                            if(app('request')->has('id')&&($segment[count($segments)-2]=='category')&&($segment[count($segments)-1]=='edit')){
-                                
+                            if (app('request')->has('id')&&($segment[count($segments)-2]=='category')&&($segment[count($segments)-1]=='edit')) {
                                 $category=Modules\Store\Models\Field_Category::find(app('request')->input('id'));
                                 $sth_url='?id='.$segment[count($segments)-2];
                             }
                             
 
-                            if(app('request')->has('field_id'))
-                            {
+                            if (app('request')->has('field_id')) {
                                 $type_id=Modules\Store\Models\Field::find(app('request')->input('field_id'))->type_id;
-                                $sth_url='?id='.$type_id;      
+                                $sth_url='?id='.$type_id;
+                            }
+                        } elseif ($segment=='field') {
+                            if (app('request')->has('type_id')) {
+                                $sth_url='/create?type_id='.app('request')->input('type_id');
                             }
 
-                        }elseif($segment=='field'){
-                            if(app('request')->has('type_id'))
-                            $sth_url='/create?type_id='.app('request')->input('type_id'); 
-
-                            if(app('request')->has('field_id'))
-                            $sth_url='/edit?field_id='.app('request')->input('field_id'); 
+                            if (app('request')->has('field_id')) {
+                                $sth_url='/edit?field_id='.app('request')->input('field_id');
+                            }
                         }
 
                         ?>

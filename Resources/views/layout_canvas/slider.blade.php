@@ -7,9 +7,9 @@
 
 			<div id="rev_slider_579_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.4">
 				<?php
-							$postservice = new Modules\Blog\Services\PostService;
-							$slides=$postservice->slides();
-							?>
+                            $postservice = new Modules\Blog\Services\PostService;
+                            $slides=$postservice->slides();
+                            ?>
 				<ul>
 
 
