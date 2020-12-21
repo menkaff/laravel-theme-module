@@ -37,9 +37,9 @@
 
 					<div class="widget widget_links clearfix">
 						<?php
-							$cobojservice = new Modules\Coboj\Services\CobojService;
-							$types=$cobojservice->type_all();
-							?>
+                            $cobojservice = new Modules\Coboj\Services\CobojService;
+                            $types=$cobojservice->type_all();
+                            ?>
 						<h4>تسهیلات</h4>
 
 						<ul>
@@ -56,9 +56,9 @@
 
 					<div class="widget clearfix">
 						<?php
-									$postservice = new Modules\Blog\Services\PostService;
-									$recent_posts=$postservice->recent_posts();
-									?>
+                                    $postservice = new Modules\Blog\Services\PostService;
+                                    $recent_posts=$postservice->recent_posts();
+                                    ?>
 						<h4>مطالب اخیر</h4>
 
 						<div id="post-list-footer">

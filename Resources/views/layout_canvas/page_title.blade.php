@@ -5,10 +5,10 @@
 
     <div class="container clearfix">
         <?php $segment_url = '';
-					$segments=Request::segments();
-					$last=end($segments);
-					
-					?>
+                    $segments=Request::segments();
+                    $last=end($segments);
+                    
+                    ?>
 
         <h1>
             @if(isset($segments[0]))
@@ -21,11 +21,11 @@
 
 
             @foreach($segments as $segment)
-            <?php 
-						$segment_url .= '/'.$segment; 
-							
-	
-							?>
+            <?php
+                        $segment_url .= '/'.$segment;
+                            
+    
+                            ?>
 
 
 

@@ -42,7 +42,8 @@ class ThemeServiceProvider extends ServiceProvider
             __DIR__.'/../Config/config.php' => config_path('theme.php'),
         ], 'config');
         $this->mergeConfigFrom(
-            __DIR__.'/../Config/config.php', 'theme'
+            __DIR__.'/../Config/config.php',
+            'theme'
         );
     }
 
@@ -59,7 +60,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         $this->publishes([
             $sourcePath => $viewPath
-        ],'views');
+        ], 'views');
 
         $this->loadViewsFrom(array_merge(array_map(function ($path) {
             return $path . '/modules/theme';

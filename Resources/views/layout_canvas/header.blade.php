@@ -22,9 +22,9 @@
 			<nav id="primary-menu" class="sub-title">
 
 				<?php
-					$menuservice = new Modules\Blog\Services\MenuService;
-					$menus=$menuservice->all();
-					?>
+                    $menuservice = new Modules\Blog\Services\MenuService;
+                    $menus=$menuservice->all();
+                    ?>
 				<ul>
 					<li class="current"><a href="/">
 							<div>خانه</div>
