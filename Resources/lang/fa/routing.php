@@ -1,4 +1,5 @@
 <?php return array(
+    "rating" => "امتیاز",
     "street" => "خیابان",
     "proposed_product" => "کالای پیشنهادی",
     "proposed_products" => "کالاهای پیشنهادی",
