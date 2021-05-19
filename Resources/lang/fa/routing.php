@@ -1,4 +1,5 @@
 <?php return array(
+    "import" => "ایمپورت",
     "rating" => "امتیاز",
     "street" => "خیابان",
     "proposed_product" => "کالای پیشنهادی",
